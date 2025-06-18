@@ -8,14 +8,14 @@ Built for lightweight system monitoring needs.
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **Bash Scripting**
 - **Linux Networking Tools:** `ifstat`, `ping`, `ss`, `top`
 - **Tested OS:** Kali Linux, Ubuntu
 
 ---
 
-## 🚀 Features
+## Features
 - Show **Network Upload/Download Speed**
 - List **Top 5 Bandwidth-Consuming Processes**
 - Check **Ping Status** (default `8.8.8.8`)
@@ -24,7 +24,7 @@ Built for lightweight system monitoring needs.
 
 ---
 
-## 📦 Script File
+## Script File
 
 Save the script as ➡️ `network_monitor_v2.sh`  
 
@@ -38,7 +38,7 @@ chmod +x network_monitor_v2.sh
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```
 ========== Network Monitoring =========
@@ -59,13 +59,13 @@ RAM Usage:  45%
 ```
 
 ---
-## 📊 Output
+## Output
 
 ![netmon](https://github.com/user-attachments/assets/5627bbe1-e8e0-43cd-aba3-e73ae31ce1cd)
 
 ---
 
-## 📝 How It Works
+## How It Works
 - Uses `ifstat` for live bandwidth stats
 - `ss` tool to map active network processes
 - `ping` health check to external server
@@ -73,7 +73,7 @@ RAM Usage:  45%
 
 ---
 
-## 💪 Skills Gained
+## Skills Gained
 - Linux Network Commands
 - Bash Scripting Automation
 - System Monitoring Basics
